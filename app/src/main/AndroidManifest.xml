@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.api_reader_app">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.wz_tracker">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MainApplication"
+        android:name="com.example.wz_tracker.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.API_reader_app">
+        android:theme="@style/Theme.myTheme" >
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.example.wz_tracker.activities.MainActivity"
             android:exported="true"
-            android:label="Weather forecast for Wroclaw" />
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
 
         <activity
-            android:name=".activities.StartActivity"
-            android:exported="true">
+            android:name="com.example.wz_tracker.activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.splashTheme"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,8 +34,5 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 </manifest>

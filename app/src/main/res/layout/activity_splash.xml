@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mt_background"
+    tools:context=".activities.SplashActivity">
+
+    <TextView
+        android:id="@+id/activity_splash_tv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="4dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="@string/app_name"
+        android:textColor="@color/mt_primary"
+        android:textSize="28sp"
+        app:drawableTopCompat="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/activity_splash_tv_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:textAlignment="center"
+        android:textColor="@color/mt_primary_light"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/activity_splash_tv_author"
+        app:layout_constraintEnd_toEndOf="@+id/activity_splash_tv_author"
+        app:layout_constraintStart_toStartOf="@+id/activity_splash_tv_author"
+        tools:ignore="SpUsage,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/activity_splash_tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/dm_sans_bold"
+        android:text="@string/author"
+        android:textAlignment="center"
+        android:textColor="@color/mt_primary"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpUsage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

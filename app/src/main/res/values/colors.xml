@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<!--  My theme colors  -->
+    <color name="mt_primary">#52798a</color>
+    <color name="mt_primary_light">#80a8ba</color>
+    <color name="mt_primary_dark">#254d5d</color>
+    <color name="mt_secondary">#52897e</color>
+    <color name="mt_secondary_light">#81b9ad</color>
+    <color name="mt_secondary_dark">#245c52</color>
+    <color name="mt_text_on_light">#212121</color>
+    <color name="mt_text_on_light_light">#BF212121</color>
+    <color name="mt_background">#EAEEF1</color>
+<!--  Place colors  -->
+    <color name="first_place">#FFF59D</color>
+    <color name="second_place">#b0bec5</color>
+    <color name="third_place">#bcaaa4</color>
+    <color name="other_place">#FFFFFF</color>
 </resources>

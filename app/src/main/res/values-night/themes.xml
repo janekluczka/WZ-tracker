@@ -1,16 +1,40 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.API_reader_app" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+<resources>
+    <!-- My application theme. -->
+    <style name="Theme.myTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/mt_primary</item>
+        <item name="colorPrimaryVariant">@color/mt_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorSecondary">@color/mt_secondary</item>
+        <item name="colorSecondaryVariant">@color/mt_secondary_dark</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+        <!-- Bottom Navigation color. -->
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <!--        <item name="fontFamily">@font/dm_sans_medium</item>-->
+    </style>
+
+    <style name="Theme.splashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mt_primary</item>
+        <item name="colorPrimaryVariant">@color/mt_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/mt_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/mt_background</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorPrimary">@color/mt_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:fontFamily">@font/dm_sans_medium</item>
     </style>
 </resources>

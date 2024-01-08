@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/usernameFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Activision user"/>
+    <item
+        android:id="@+id/matchesListFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_sharp_list_24"
+        android:title="Last games"/>
+    <item
+        android:id="@+id/lifetimeStatsFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="Lifetime stats"/>
+</menu>

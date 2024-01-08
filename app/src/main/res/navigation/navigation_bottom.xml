@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/usernameFragment">
+
+    <fragment
+        android:id="@+id/matchesListFragment"
+        android:name="com.example.wz_tracker.fragments.MatchesListFragment"
+        android:label="MatchesListFragment">
+        <action
+            android:id="@+id/action_matchesListFragment_to_matchDetailsFragment"
+            app:destination="@id/matchDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_matchesListFragment_to_usernameFragment"
+            app:destination="@id/usernameFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/lifetimeStatsFragment"
+        android:name="com.example.wz_tracker.fragments.LifetimeStatsFragment"
+        android:label="fragment_lifetime_stats"
+        tools:layout="@layout/fragment_lifetime_stats" >
+        <action
+            android:id="@+id/action_lifetimeStatsFragment_to_usernameFragment"
+            app:destination="@id/usernameFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/usernameFragment"
+        android:name="com.example.wz_tracker.fragments.UsernameFragment"
+        android:label="UsernameFragment" />
+
+    <fragment
+        android:id="@+id/matchDetailsFragment"
+        android:name="com.example.wz_tracker.fragments.MatchDetailsFragment"
+        android:label="MatchDetailsFragment" >
+        <argument
+            android:name="gameID"
+            app:argType="integer" />
+    </fragment>
+</navigation>
