@@ -10,14 +10,7 @@
 
 ## Screenshots
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: auto;">
-  <img src="https://github.com/janekluczka/WZ-tracker/assets/66272223/b936cb70-d235-42f3-8c7d-fba09311268b" alt="WZ-Tracker-Splash-screen" style="max-width: 100%; height: auto;">
-  <img src="https://github.com/janekluczka/WZ-tracker/assets/66272223/2c8a8034-36a2-4390-a683-57b970467b98" alt="WZ-Tracker-Select-user" style="max-width: 100%; height: auto;">
-  <img src="https://github.com/janekluczka/WZ-tracker/assets/66272223/058eea72-7c30-4212-bc6e-cdfc4d0ffaf0" alt="WZ-Tracker-Lifetime-stats" style="max-width: 100%; height: auto;">    
-  <img src="https://github.com/janekluczka/WZ-tracker/assets/66272223/03100af6-b994-497c-b031-d735d30b569f" alt="WZ-Tracker-Last-games-Details-1" style="max-width: 100%; height: auto;">
-  <img src="https://github.com/janekluczka/WZ-tracker/assets/66272223/29aae826-4206-4c6f-a13c-1edd0dcd369c" alt="WZ-Tracker-Last-games-Details-2" style="max-width: 100%; height: auto;">
-  <img src="https://github.com/janekluczka/WZ-tracker/assets/66272223/b853b6b5-dbcb-4940-a7d1-25e5303113f9" alt="WZ-Tracker-Last-games" style="max-width: 100%; height: auto;">
-</div>
+![WZ-Tracker-Screenshots](https://github.com/janekluczka/WZ-tracker/assets/66272223/09668d0a-52a5-41af-b3c6-b3d891fa7ead)
 
 ## Getting Started
 
